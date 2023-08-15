@@ -6,17 +6,27 @@ MATLAB codebase for quantifying post-disaster economic recovery for multi-region
 *License: GNU General Public License v3.0 (see LICENSE)*
 
 ## Updates
+    08/15/2023:
+    - A hypothetical example is posted with required inputs and output from the analysis for reference.
+    - The preprocessing scipt is posted to process and format the input data from the example for multi-regional analysis.
     07/23/2023: 
     - This program requires a set of pre-formatted inputs to run.
 
 ## Program overview
 This repository contains the following:
 * **mr_wrapper.m**: wrapper script governing analysis settings
-* **fn_run_mr_ario.m**: wrapper function for multi-region ARIO program
+* **run_mr_ario.m**: wrapper function for multi-region ARIO program
+* **mr_ario_preprocessing.m**: script for preprocessing (1) economic inputs, (2) damage/loss inputs, and (3) I-O inputs for multi-region ARIO program
 * **functions**: functions for simulating economic recovery, and auxilaliary post-processing tools
-* **inputs**: pre-processed (1) economic inputs, (2) damage/loss inputs, and (3) I-O inputs
-    * params : input files for ARIO behavioral parameter distributions
-* **output**: analysis output and main preprocessing program
+* **inputs**: raw (1) I-O table, (2) region names, and (3) sector names
+              pre-processed (1) economic inputs, (2) damage/loss inputs, (3) I-O inputs, and (4) behavioral parameter distributions
+* **output**: analysis output
+
+## Example overview
+This repository contains the data for a test-run example:
+* The example assesses the impacts to a two-region economy (Region1 and Region2) from the initial damages.
+* The example extracts the economic information of the analysis regions (Region1 and Region2) from a three-economy I-O table (for Region1, Region2, and Region3) using the preprocessing script.
+* The output results of the example are provided in the `outputs` folder.
 
 ## fn_run_mr_ario overview
 The function fn_run_mr_ario is the main function governing the ARIO analysis, and is called by the program wrapper, sr_wrapper after analysis settings are defined.
@@ -49,6 +59,6 @@ The function fn_run_mr_ario is the main function governing the ARIO analysis, an
 
 ## Running an analysis
 The steps to run a multi-region ARIO analysis are summarized below. 
-1. Place (i) `mr_ario_building_damage.csv`, (ii) `mr_ario_econ_data.mat`, (iii) `mr_ario_economic_sectors.csv`,  (iv) `mr_ario_IO_data.mat`, and (v) `mr_ario_loss_data.mat` in the `inputs` directory. 
+1. Place (i) `mr_ario_building_damage.csv`, (ii) `mr_ario_econ_data.mat`, (iii) `mr_ario_economic_sectors.csv`,  (iv) `mr_ario_IO_data.mat`, (v) `mr_ario_loss_data.mat`, and (vi) behavioral parameter distributions csv's in the `inputs` directory. 
 2. Run the `mr_ario_wrapper.m` script, which calls on the `run_mr_ario.m` function to initiate the ARIO analysis with user-defined settings.
 3. Analysis will be saved in the `outputs` directory.

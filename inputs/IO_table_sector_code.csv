@@ -1,0 +1,63 @@
+Sector Code,Sector Name
+1,"Agriculture, forestry and fishery"
+2,Mining
+3,Beverages and Foods
+4,Textile products
+5,"Pulp, paper and wooden products"
+6,Chemical products
+7,Petroleum and coal products
+8,Plastic products and rubber products
+9,"Ceramic, stone and clay products"
+10,Iron and steel
+11,Non-ferrous metals
+12,Metal products
+13,General-purpose machinery
+14,Production machinery
+15,Business oriented machinery
+16,Electronic components
+17,Electrical machinery
+18,Information and communication electronics equipment
+19,Transportation equipment
+20,Miscellaneous manufacturing products
+21,Office supplies
+22,Construction
+23,"Electricity, gas and heat supply"
+24,Water supply
+25,Commerce
+26,Finance and insurance
+27,Real estate
+28,Transport and postal services
+29,Information and communications
+30,Public administration
+31,Waste management service
+32,Education and research
+33,"Medical, health care and welfare"
+34,"Membership-based associations, n.e.c."
+35,Business services
+36,Personal services
+37,Activities not elsewhere classified
+70,Total of intermediate sectors  
+71,Consumption expenditure outside households
+91,Compensation of employees
+92,Operating surplus
+93,Consumption of fixed capital
+94,Indirect taxes (except custom duties and commodity taxes on imported goods)
+95,(less) Current subsidies
+96,Total of gross value added sectors
+97,Regional production (gross inputs)
+72,Consumption expenditure (private)
+73,Consumption expenditure of general government
+74,Gross regional fixed capital formation (public sector)
+75,Gross regional fixed capital formation (private sector)
+76,Increase in stocks
+78,Total regional final demand
+79,Total regional demand
+80,Exports
+98,Exports total (Outflows + Exports)
+81,Outflows
+82,Total Final demand
+83,Total demand
+86,(less) Imports
+99,(less) Total imports
+87,(less) Inflows
+88,Total of final demand sectors

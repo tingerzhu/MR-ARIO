@@ -1,0 +1,77 @@
+﻿SectorID,RegionID,Sector,Region,SectorCat,non_stock,SectorClass
+1,1,"Region1 Agriculture, forestry and fishery",Region1,"Agriculture, forestry and fishery",0,"Agriculture, forestry and fishery"
+2,1,Region1 Mining,Region1,Mining,0,Mining
+3,1,Region1 Beverages and Foods,Region1,Beverages and Foods,0,Non-durable goods
+4,1,Region1 Textile products,Region1,Textile products,0,Manufacturing
+5,1,"Region1 Pulp, paper and wooden products",Region1,"Pulp, paper and wooden products",0,Manufacturing
+6,1,Region1 Chemical products,Region1,Chemical products,0,Manufacturing
+7,1,Region1 Petroleum and coal products,Region1,Petroleum and coal products,0,Manufacturing
+8,1,Region1 Plastic products and rubber products,Region1,Plastic products and rubber products,0,Manufacturing
+9,1,"Region1 Ceramic, stone and clay products",Region1,"Ceramic, stone and clay products",0,Manufacturing
+10,1,Region1 Iron and steel,Region1,Iron and steel,0,Manufacturing
+11,1,Region1 Non-ferrous metals,Region1,Non-ferrous metals,0,Manufacturing
+12,1,Region1 Metal products,Region1,Metal products,0,Manufacturing
+13,1,Region1 General-purpose machinery,Region1,General-purpose machinery,0,Manufacturing
+14,1,Region1 Production machinery,Region1,Production machinery,0,Manufacturing
+15,1,Region1 Business oriented machinery,Region1,Business oriented machinery,0,Manufacturing
+16,1,Region1 Electronic components,Region1,Electronic components,0,Manufacturing
+17,1,Region1 Electrical machinery,Region1,Electrical machinery,0,Manufacturing
+18,1,Region1 Information and communication electronics equipment,Region1,Information and communication electronics equipment,0,Manufacturing
+19,1,Region1 Transportation equipment,Region1,Transportation equipment,1,Manufacturing
+20,1,Region1 Miscellaneous manufacturing products,Region1,Miscellaneous manufacturing products,0,Manufacturing
+21,1,Region1 Construction,Region1,Construction,0,Construction
+22,1,"Region1 Electricity, gas and heat supply",Region1,"Electricity, gas and heat supply",1,Utilities
+23,1,Region1 Water supply,Region1,Water supply,1,Utilities
+24,1,Region1 Waste management service,Region1,Waste management service,1,Utilities
+25,1,Region1 Commerce,Region1,Commerce,0,Services
+26,1,Region1 Finance and insurance,Region1,Finance and insurance,0,Services
+27,1,Region1 Real estate,Region1,Real estate,0,Services
+28,1,Region1 Transport and postal services,Region1,Transport and postal services,0,Services
+29,1,Region1 Information and communications,Region1,Information and communications,1,Utilities
+30,1,Region1 Public administration,Region1,Public administration,0,Services
+31,1,Region1 Education and research,Region1,Education and research,0,Services
+32,1,"Region1 Medical, health care and welfare",Region1,"Medical, health care and welfare",0,Services
+33,1,"Region1 Membership-based associations, n.e.c.",Region1,"Membership-based associations, n.e.c.",0,Services
+34,1,Region1 Business services,Region1,Business services,0,Services
+35,1,Region1 Personal services,Region1,Personal services,0,Services
+36,1,Region1 Office supplies,Region1,Office supplies,0,Manufacturing
+37,1,Region1 Activities not elsewhere classified,Region1,Activities not elsewhere classified,0,Services
+1,2,"Region2 Agriculture, forestry and fishery",Region2,"Agriculture, forestry and fishery",0,"Agriculture, forestry and fishery"
+2,2,Region2 Mining,Region2,Mining,0,Mining
+3,2,Region2 Beverages and Foods,Region2,Beverages and Foods,0,Non-durable goods
+4,2,Region2 Textile products,Region2,Textile products,0,Manufacturing
+5,2,"Region2 Pulp, paper and wooden products",Region2,"Pulp, paper and wooden products",0,Manufacturing
+6,2,Region2 Chemical products,Region2,Chemical products,0,Manufacturing
+7,2,Region2 Petroleum and coal products,Region2,Petroleum and coal products,0,Manufacturing
+8,2,Region2 Plastic products and rubber products,Region2,Plastic products and rubber products,0,Manufacturing
+9,2,"Region2 Ceramic, stone and clay products",Region2,"Ceramic, stone and clay products",0,Manufacturing
+10,2,Region2 Iron and steel,Region2,Iron and steel,0,Manufacturing
+11,2,Region2 Non-ferrous metals,Region2,Non-ferrous metals,0,Manufacturing
+12,2,Region2 Metal products,Region2,Metal products,0,Manufacturing
+13,2,Region2 General-purpose machinery,Region2,General-purpose machinery,0,Manufacturing
+14,2,Region2 Production machinery,Region2,Production machinery,0,Manufacturing
+15,2,Region2 Business oriented machinery,Region2,Business oriented machinery,0,Manufacturing
+16,2,Region2 Electronic components,Region2,Electronic components,0,Manufacturing
+17,2,Region2 Electrical machinery,Region2,Electrical machinery,0,Manufacturing
+18,2,Region2 Information and communication electronics equipment,Region2,Information and communication electronics equipment,0,Manufacturing
+19,2,Region2 Transportation equipment,Region2,Transportation equipment,1,Manufacturing
+20,2,Region2 Miscellaneous manufacturing products,Region2,Miscellaneous manufacturing products,0,Manufacturing
+21,2,Region2 Construction,Region2,Construction,0,Construction
+22,2,"Region2 Electricity, gas and heat supply",Region2,"Electricity, gas and heat supply",1,Utilities
+23,2,Region2 Water supply,Region2,Water supply,1,Utilities
+24,2,Region2 Waste management service,Region2,Waste management service,1,Utilities
+25,2,Region2 Commerce,Region2,Commerce,0,Services
+26,2,Region2 Finance and insurance,Region2,Finance and insurance,0,Services
+27,2,Region2 Real estate,Region2,Real estate,0,Services
+28,2,Region2 Transport and postal services,Region2,Transport and postal services,0,Services
+29,2,Region2 Information and communications,Region2,Information and communications,1,Utilities
+30,2,Region2 Public administration,Region2,Public administration,0,Services
+31,2,Region2 Education and research,Region2,Education and research,0,Services
+32,2,"Region2 Medical, health care and welfare",Region2,"Medical, health care and welfare",0,Services
+33,2,"Region2 Membership-based associations, n.e.c.",Region2,"Membership-based associations, n.e.c.",0,Services
+34,2,Region2 Business services,Region2,Business services,0,Services
+35,2,Region2 Personal services,Region2,Personal services,0,Services
+36,2,Region2 Office supplies,Region2,Office supplies,0,Manufacturing
+37,2,Region2 Activities not elsewhere classified,Region2,Activities not elsewhere classified,0,Services
+-999,1,Region1 Housing,Region1,Housing,0,Housing
+-999,2,Region2 Housing,Region2,Housing,0,Housing

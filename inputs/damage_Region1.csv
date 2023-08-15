@@ -1,0 +1,39 @@
+IndustrySector_Code,Sector_name,Loss,FA
+-999,Housing,730,82250
+1,"Agriculture, forestry and fishery",2250,145570
+2,Mining,0,100
+3,Beverages and Foods,13980,1066780
+4,Textile products,740,50170
+5,"Pulp, paper and wooden products",2310,158970
+6,Chemical products,460,32880
+7,Petroleum and coal products,20,1380
+8,Plastic products and rubber products,170,10180
+9,"Ceramic, stone and clay products",230,70080
+10,Iron and steel,190,4930
+11,Non-ferrous metals,0,100
+12,Metal products,1410,91730
+13,General-purpose machinery,1010,75790
+14,Production machinery,0,100
+15,Business oriented machinery,1400,133900
+16,Electronic components,830,38670
+17,Electrical machinery,2590,130650
+18,Information and communication electronics equipment,0,100
+19,Transportation equipment,11200,477730
+20,Miscellaneous manufacturing products,640,44240
+21,Construction,5920,661690
+22,"Electricity, gas and heat supply",700,110970
+23,Water supply,210,21400
+24,Waste management service,1970,73940
+25,Commerce,67860,5633500
+26,Finance and insurance,980,183980
+27,Real estate,3510,327770
+28,Transport and postal services,9910,866120
+29,Information and communications,320,32500
+30,Public administration,870,64250
+31,Education and research,1730,226770
+32,"Medical, health care and welfare",7210,718800
+33,"Membership-based associations, n.e.c.",6510,514960
+34,Business services,550,38200
+35,Personal services,56600,10246350
+36,Office supplies,820,62980
+37,Activities not elsewhere classified,150,17380

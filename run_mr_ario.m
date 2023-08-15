@@ -20,6 +20,7 @@ function [mr] = run_mr_ario(input, settings)
             [mr]           = fn_initialize_mr_variables(input, settings, sim);
 
         %% Main loop
+            store_k = 1;
             for k = 1:settings.Nstep
                 %% Stage 1: get_production
                 % Purpose of this stage: leverage (i) demand, (ii)production capacity, and

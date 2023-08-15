@@ -33,7 +33,7 @@ switch(type)
                 sector_id = sectors.id(sub-N);
                 region_name = sectors.region_name(sub-N);
             end
-            index = intersect(find(empirical_data.IndustrySector_Code == sector_id),find(contains(empirical_data.Prefecture_name,region_name)));
+            index = intersect(find(empirical_data.IndustrySector_Code == sector_id),find(contains(empirical_data.Region_name,region_name)));
             raw_sector_RT_data = empirical_data.RT_bldg_avg_days(index)./365;
             raw_sector_N_data  = empirical_data.N(index);
 
