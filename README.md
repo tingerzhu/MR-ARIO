@@ -7,8 +7,8 @@ MATLAB codebase for quantifying post-disaster economic recovery for multi-region
 
 ## Updates
 08/11/2023:
-- A new model parameter $input.sub_ratio$ is introduced: 
-    when $input.sub_ratio = 1$, the inventory from same sector but different regions are allowed to substitute each other for production;
+- A new model parameter ***input.sub_ratio*** is introduced: 
+    when ***input.sub_ratio*** = 1, the inventory from same sector but different regions are allowed to substitute each other for production;
     Otherwise, the inventory from same sector but different regions are not allowed to substitute each other as per in the previous version.
 08/15/2023:
 - A hypothetical example is posted with required inputs and output from the analysis for reference.
