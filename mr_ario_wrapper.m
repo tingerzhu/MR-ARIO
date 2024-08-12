@@ -56,5 +56,6 @@ addpath functions
     
     
 %% Run single_region_ARIO function
+    input.sub_ratio = 0;    % if set to 1, allows substitution of inventory from same sector but different regions
     mr_output = run_mr_ario(input, settings);
     save('outputs/mr_ario_results.mat','input','settings','mr_output', '-v7.3');
