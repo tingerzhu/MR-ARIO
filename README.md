@@ -2,11 +2,13 @@
 **Stanford Urban Resilience Initiative, 2023** <br>
 **Original program by Stephane Hallegatte, 2014** <br>
 MATLAB codebase for quantifying post-disaster economic recovery for multi-regional analysis. Based on the original ARIO model by Hallegatte, 2014 and single-region ARIO model by Stanford Urban Resilience Initiative, 2022. 
+Please refer to the associated paper for more details:
+> Zhu, T., Issa, O., Markhvida, M., Costa, R., & Baker, J. W. (2024). Multi-regional economic recovery simulation using an Adaptive Regional Input–Output (ARIO) framework. *International Journal of Disaster Risk Reduction*, 112, 104766. [https://doi.org/10.1016/j.ijdrr.2024.104766](https://doi.org/10.1016/j.ijdrr.2024.104766)
 
 *License: GNU General Public License v3.0 (see LICENSE)*
 
 ## Updates
-08/11/2023:
+08/11/2024:
 - A new model parameter ***input.sub_ratio*** is introduced: 
     - When ***input.sub_ratio*** = 1, the inventory from same sector but different regions are allowed to substitute each other for production;
     - Otherwise, the inventory from same sector but different regions are not allowed to substitute each other as per in the previous version.
